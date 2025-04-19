@@ -1,0 +1,67 @@
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    background: #fff;
+    color: #333;
+}
+.hero {
+    background: url('assets/hero.jpg') no-repeat center center/cover;
+    color: white;
+    padding: 100px 20px;
+    text-align: center;
+}
+.hero .btn {
+    padding: 10px 20px;
+    background: #ff4081;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+.benefits {
+    padding: 50px 20px;
+    text-align: center;
+}
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+.card {
+    width: 250px;
+    padding: 20px;
+    border: 1px solid #eee;
+    border-radius: 10px;
+    text-align: center;
+}
+.card img {
+    width: 60px;
+    height: 60px;
+}
+.testimonials {
+    background: #f8f8f8;
+    padding: 50px 20px;
+    text-align: center;
+}
+.testimonial {
+    margin-bottom: 20px;
+}
+.cta {
+    background: #ff4081;
+    color: white;
+    text-align: center;
+    padding: 40px 20px;
+}
+.cta .btn {
+    background: white;
+    color: #ff4081;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+footer {
+    background: #222;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
